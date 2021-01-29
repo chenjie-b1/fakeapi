@@ -73,7 +73,7 @@
     }
   ],
 
-  data: [
+  "data": [
     { datetime: '2021-01-28T08:00:00.000Z', valueInQuote: '7510056600.83' },
     { datetime: '2021-01-28T09:00:00.000Z', valueInQuote: '7555869988.13' },
     { datetime: '2021-01-28T10:00:00.000Z', valueInQuote: '7563514682.78' },

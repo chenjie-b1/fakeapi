@@ -72,31 +72,4 @@
       "status": "disabled"
     }
   ],
-
-  "data": [
-    { datetime: '2021-01-28T08:00:00.000Z', valueInQuote: '7510056600.83' },
-    { datetime: '2021-01-28T09:00:00.000Z', valueInQuote: '7555869988.13' },
-    { datetime: '2021-01-28T10:00:00.000Z', valueInQuote: '7563514682.78' },
-    { datetime: '2021-01-28T11:00:00.000Z', valueInQuote: '7731018456.57' },
-    { datetime: '2021-01-28T12:00:00.000Z', valueInQuote: '7721547394.15' },
-    { datetime: '2021-01-28T13:00:00.000Z', valueInQuote: '7732612334.71' },
-    { datetime: '2021-01-28T14:00:00.000Z', valueInQuote: '7700261928.84' },
-    { datetime: '2021-01-28T15:00:00.000Z', valueInQuote: '7726359434.38' },
-    { datetime: '2021-01-28T16:00:00.000Z', valueInQuote: '7779045271.76' },
-    { datetime: '2021-01-28T17:00:00.000Z', valueInQuote: '7750550353.77' },
-    { datetime: '2021-01-28T18:00:00.000Z', valueInQuote: '7799268450.02' },
-    { datetime: '2021-01-28T19:00:00.000Z', valueInQuote: '7783485507.68' },
-    { datetime: '2021-01-28T20:00:00.000Z', valueInQuote: '7778624861.28' },
-    { datetime: '2021-01-28T21:00:00.000Z', valueInQuote: '7879331978.28' },
-    { datetime: '2021-01-28T22:00:00.000Z', valueInQuote: '7888375970.38' },
-    { datetime: '2021-01-28T23:00:00.000Z', valueInQuote: '7865420488.60' },
-    { datetime: '2021-01-29T00:00:00.000Z', valueInQuote: '7961127193.95' },
-    { datetime: '2021-01-29T01:00:00.000Z', valueInQuote: '7912133847.90' },
-    { datetime: '2021-01-29T02:00:00.000Z', valueInQuote: '7913340936.22' },
-    { datetime: '2021-01-29T03:00:00.000Z', valueInQuote: '7880627613.03' },
-    { datetime: '2021-01-29T04:00:00.000Z', valueInQuote: '7853297389.24' },
-    { datetime: '2021-01-29T05:00:00.000Z', valueInQuote: '7920983288.12' },
-    { datetime: '2021-01-29T06:00:00.000Z', valueInQuote: '7811572639.83' },
-    { datetime: '2021-01-29T07:00:00.000Z', valueInQuote: '7736576774.62' },
-  ],
 }

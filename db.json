@@ -73,3 +73,35 @@
     }
   ]
 }
+
+const smallChartData = [
+    { datetime: '2021-01-28T08:00:00.000Z', valueInQuote: '79.1005660083' },
+    { datetime: '2021-01-28T09:00:00.000Z', valueInQuote: '79.5586998813' },
+    { datetime: '2021-01-28T10:00:00.000Z', valueInQuote: '76.6351468278' },
+    { datetime: '2021-01-28T11:00:00.000Z', valueInQuote: '77.3101845657' },
+    { datetime: '2021-01-28T12:00:00.000Z', valueInQuote: '77.2154739415' },
+    { datetime: '2021-01-28T13:00:00.000Z', valueInQuote: '77.3261233471' },
+    { datetime: '2021-01-28T14:00:00.000Z', valueInQuote: '77.0026192884' },
+    { datetime: '2021-01-28T15:00:00.000Z', valueInQuote: '77.2635943438' },
+    { datetime: '2021-01-28T16:00:00.000Z', valueInQuote: '77.7904527176' },
+    { datetime: '2021-01-28T17:00:00.000Z', valueInQuote: '77.5055035377' },
+    { datetime: '2021-01-28T18:00:00.000Z', valueInQuote: '77.9926845002' },
+    { datetime: '2021-01-28T19:00:00.000Z', valueInQuote: '77.8348550768' },
+    { datetime: '2021-01-28T20:00:00.000Z', valueInQuote: '77.7862486128' },
+    { datetime: '2021-01-28T21:00:00.000Z', valueInQuote: '78.7933197828' },
+    { datetime: '2021-01-28T22:00:00.000Z', valueInQuote: '78.8837597038' },
+    { datetime: '2021-01-28T23:00:00.000Z', valueInQuote: '78.6542048860' },
+    { datetime: '2021-01-29T00:00:00.000Z', valueInQuote: '79.6112719395' },
+    { datetime: '2021-01-29T01:00:00.000Z', valueInQuote: '79.1213384790' },
+    { datetime: '2021-01-29T02:00:00.000Z', valueInQuote: '79.1334093622' },
+    { datetime: '2021-01-29T03:00:00.000Z', valueInQuote: '78.8062761303' },
+    { datetime: '2021-01-29T04:00:00.000Z', valueInQuote: '78.5329738924' },
+    { datetime: '2021-01-29T05:00:00.000Z', valueInQuote: '79.2098328812' },
+    { datetime: '2021-01-29T06:00:00.000Z', valueInQuote: '78.1157263983' },
+    { datetime: '2021-01-29T07:00:00.000Z', valueInQuote: '77.3657677462' },
+  ]
+
+  const largeChartData = smallChartData.map(item => {
+    item.valueInQuote = String(Number(item.valueInQuote) * 100000000)
+    return item
+  })
